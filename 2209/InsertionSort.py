@@ -1,6 +1,4 @@
 #Insertion Sort
-
-
 def insertion_sort(lista):
     for i in range(1, len(lista)):
         key = lista[i]
@@ -12,7 +10,8 @@ def insertion_sort(lista):
     print(lista)
 
 
+
 #Principal
-lista = [12, 11, 13, 5, 6]
+lista = [12, 11, 13, 5, 6] #Lista para a função agir
 insertion_sort(lista)
 
