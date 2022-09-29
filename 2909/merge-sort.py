@@ -1,4 +1,4 @@
-def merg_sort(lista):
+def merge_sort(lista):
     if len(lista) > 1:
 
         #Encontrando o meio da lista
@@ -9,10 +9,10 @@ def merg_sort(lista):
         right = lista[meio:]
 
         #Ordenando a primeira lista
-        merg_sort(left)
+        merge_sort(left)
 
         #Ordenando a segunda lista
-        merg_sort(right)
+        merge_sort(right)
        
         i = j = k = 0
 
@@ -40,6 +40,6 @@ def merg_sort(lista):
 #Principal
 lista = [12, 11, 13, 5, 6, 7]
 print(f'Lista: {lista}')
-merg_sort(lista)
+merge_sort(lista)
 print(f'Lista Ordenada: {lista}')
 
