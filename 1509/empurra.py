@@ -4,8 +4,6 @@ def troca(lista, i, j):
     lista[i], lista[j] = lista[j], lista[i]
 
 
-
-
 #Programa principal
 lista = [40, 30, 20, 50, 10]
 cont = 0
